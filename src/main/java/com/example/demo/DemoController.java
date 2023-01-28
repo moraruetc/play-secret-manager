@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class DemoController {
-    @Value("${sm://projects/871596920490/secrets/MYSQL_PASSWORD}")
+    @Value("${sm://projects/moro-1-373510/secrets/MYSQL_PASSWORD}")
     private String name;
 
     @GetMapping("/hello")
